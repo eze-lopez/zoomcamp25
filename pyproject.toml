@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "zoomcamp25"
+version = "0.1.0"
+description = "Project for DataTalksClub Data Engineering Zoomcamp 2025 edition"
+authors = ["Ezequiel Lopez <ezequiel20139@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
