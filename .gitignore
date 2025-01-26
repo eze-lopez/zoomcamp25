@@ -172,3 +172,6 @@ cython_debug/
 
 # VS Code settings
 .vscode
+
+# Data files stored locally for test and dev purposes
+.data
