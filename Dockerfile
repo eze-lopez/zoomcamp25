@@ -1,7 +1,12 @@
-FROM python:3.12.8
+FROM python:3.10
 
-RUN pip install pandas
+RUN pip install --upgrade pip
 
+COPY ./ /app
 WORKDIR /app
+
+RUN pip install poetry
+RUN poetry config virtualenvs.create false
+RUN poetry install --no-root
 
 ENTRYPOINT [ "bash" ]
