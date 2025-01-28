@@ -13,6 +13,7 @@ pgcli = "^4.1.0"
 psycopg = "^3.2.4"
 sqlalchemy = "^2.0.37"
 psycopg2-binary = "^2.9.10"
+pytest = "^8.3.4"
 
 
 [build-system]

@@ -1,6 +1,6 @@
-FROM python:3.12.8
+FROM python:3.10
 
-RUN pip install pandas
+RUN pip install --upgrade pip
 
 WORKDIR /app
 
