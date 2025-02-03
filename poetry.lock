@@ -293,6 +293,23 @@ files = [
 ]
 
 [[package]]
+name = "kestra"
+version = "0.21.0"
+description = "Kestra is an infinitely scalable orchestration and scheduling platform, creating, running, scheduling, and monitoring millions of complex pipelines."
+optional = false
+python-versions = ">=3"
+files = [
+    {file = "kestra-0.21.0-py3-none-any.whl", hash = "sha256:5a9dcff2d5baa0fe6a121c0cee4a69ac7df223481b6c9a4aa5022fb3df368bc3"},
+    {file = "kestra-0.21.0.tar.gz", hash = "sha256:c2a787a4d49f3d8b406633393ac7db27a6363f1c3a165b3181a38a6a30912cdf"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[package.extras]
+test = ["pytest", "requests_mock"]
+
+[[package]]
 name = "numpy"
 version = "2.2.2"
 description = "Fundamental package for array computing in Python"
@@ -1110,4 +1127,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "cd7bf644b9d8d43d49eda1605952b886efc6f73e103b9063fad0216e03eed13a"
+content-hash = "5205e2dd9715d133eb67424eeebedb0096cb5df41c318fd6cf396e64eb4389c2"

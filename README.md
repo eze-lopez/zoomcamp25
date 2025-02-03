@@ -9,8 +9,10 @@ Repo with zoomcamp homework and deliverables. This document should be useful as 
 ## STACK
 
 - Python 3.10 version
-- Postgres 1.13 version
-- Poetry as dependency management tool
+  - Poetry as dependency management tool
+- Postgres as app database
+  - BigQuery (GCP) will be included as database/warehouse in further modules
+- Kestra as orchestrator
 
 ## MAIN COMPONENTS
 
