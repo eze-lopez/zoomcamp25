@@ -9,14 +9,15 @@ tasks:
     value: |
       {
         "type": "service_account",
-        "project_id": "...",
+        "project_id": "zoomcamp25",
+        ...
       }
 
   - id: gcp_project_id
     type: io.kestra.plugin.core.kv.Set
     key: GCP_PROJECT_ID
     kvType: STRING
-    value: kestra-sandbox # TODO replace with your project id
+    value: zoomcamp25 # TODO replace with your project id
 
   - id: gcp_location
     type: io.kestra.plugin.core.kv.Set
@@ -28,10 +29,10 @@ tasks:
     type: io.kestra.plugin.core.kv.Set
     key: GCP_BUCKET_NAME
     kvType: STRING
-    value: your-name-kestra # TODO make sure it's globally unique!
+    value: zoomcamp25-bucket # TODO make sure it's globally unique!
 
   - id: gcp_dataset
     type: io.kestra.plugin.core.kv.Set
     key: GCP_DATASET
     kvType: STRING
-    value: zoomcamp
+    value: ny_taxi
