@@ -15,6 +15,7 @@ sqlalchemy = "^2.0.37"
 psycopg2-binary = "^2.9.10"
 pytest = "^8.3.4"
 kestra = "^0.21.0"
+google-cloud-storage = "^3.0.0"
 
 
 [build-system]
