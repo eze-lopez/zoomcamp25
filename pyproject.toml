@@ -16,7 +16,9 @@ psycopg2-binary = "^2.9.10"
 pytest = "^8.3.4"
 kestra = "^0.21.0"
 google-cloud-storage = "^3.0.0"
+google-cloud-bigquery = "^3.29.0"
 dlt = {version = "^1.6.1", extras = ["duckdb"]}
+python-dotenv = "^1.0.1"
 
 
 [build-system]

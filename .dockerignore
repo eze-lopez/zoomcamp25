@@ -175,6 +175,7 @@ cython_debug/
 
 # Data files stored locally for test and dev purposes
 .data
+.duckdb
 
 # GIT files (don't need inside the container)
 .git
