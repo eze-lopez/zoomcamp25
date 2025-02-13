@@ -175,3 +175,4 @@ cython_debug/
 
 # Data files stored locally for test and dev purposes
 .data
+*.duckdb
